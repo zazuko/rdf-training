@@ -9,15 +9,24 @@
   },
   "dependencies": {
     "@rdfjs/data-model": "^1.1.2",
+    "@rdfjs/fetch": "^2.0.0",
+    "@rdfjs/formats-common": "^2.1.0",
     "@rdfjs/namespace": "^1.1.0",
+    "@rdfjs/parser-n3": "^1.1.4",
+    "@rdfjs/serializer-jsonld-ext": "^2.0.0",
     "@tpluscode/rdf-ns-builders": "^0.1.0",
-    "@tpluscode/rdf-string": "^0.2.10"
+    "@tpluscode/rdf-string": "^0.2.10",
+    "string-to-stream": "^3.0.1",
+    "tbbt-ld": "^1.1.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",
     "@types/rdf-js": "^2.0.12",
+    "@types/rdfjs__fetch": "^2.0.1",
+    "@types/rdfjs__formats-common": "^2.0.0",
     "@types/rdfjs__namespace": "^1.1.1",
+    "@types/rdfjs__parser-n3": "^1.1.2",
     "esm": "^3.2.25",
     "husky": "^3.1.0",
     "lint-staged": "^9.5.0",
@@ -37,7 +46,7 @@
   },
   "lint-staged": {
     "*.js": [
-      "standard",
+      "standard --fix",
       "git add"
     ]
   },
