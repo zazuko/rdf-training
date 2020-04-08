@@ -7,9 +7,18 @@
     "type": "git",
     "url": "git+https://github.com/zazuko/rdf-training.git"
   },
+  "dependencies": {
+    "@rdfjs/data-model": "^1.1.2",
+    "@rdfjs/namespace": "^1.1.0",
+    "@tpluscode/rdf-ns-builders": "^0.1.0",
+    "@tpluscode/rdf-string": "^0.2.10"
+  },
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",
+    "@types/rdf-js": "^2.0.12",
+    "@types/rdfjs__namespace": "^1.1.1",
+    "esm": "^3.2.25",
     "husky": "^3.1.0",
     "lint-staged": "^9.5.0",
     "standard": "^14.3.3"
@@ -36,5 +45,8 @@
     "extends": [
       "@commitlint/config-conventional"
     ]
+  },
+  "esm": {
+    "cache": false
   }
 }
