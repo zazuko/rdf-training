@@ -20,3 +20,4 @@
 - [RDF/JS: Data model specification](http://rdf.js.org/data-model-spec/)
 - [@types/rdf-js](https://npm.im/@types/rdf-js)
 - [@types/rdfjs__namespace](https://npm.im/@types/rdfjs__namespace)
+- [prefix.zazuko.com](https://prefix.zazuko.com)

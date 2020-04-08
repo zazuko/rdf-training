@@ -1,6 +1,6 @@
 import * as RDF from '@rdfjs/data-model'
 import ns from '@rdfjs/namespace'
-import { turtle } from '@tpluscode/rdf-string'
+// import { turtle } from '@tpluscode/rdf-string'
 import { schema } from '@tpluscode/rdf-ns-builders'
 
 const tbbt = ns('http://localhost:8080/data/person/')
@@ -15,6 +15,10 @@ const quads = [
   RDF.quad(stuart, schema.knows, penny)
 ]
 
+/*
 console.log(
   turtle`${quads}`.toString()
 )
+*/
+
+export default quads
