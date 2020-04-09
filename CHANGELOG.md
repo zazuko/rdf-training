@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.2](https://github.com/zazuko/rdf-training/compare/v0.0.1...v0.0.2) (2020-04-09)
+
+
+### Bug Fixes
+
+* improve lessons based on first presentation ([c4dc5b4](https://github.com/zazuko/rdf-training/commit/c4dc5b4e7d871e544b38de142fc49672f555de3e))
+
 ### 0.0.1 (2020-04-08)
 
 
