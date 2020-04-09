@@ -9,7 +9,8 @@ const tbbt = ns('http://localhost:8080/data/person/')
 async function main () {
   const dataset = await $rdf.dataset().import(await stream)
 
-  const onlyRajesh = dataset.match(tbbt('rajesh-koothrappali'))
+  const rajeshIri = tbbt('rajesh-koothrappali')
+  const onlyRajesh = dataset.match(rajeshIri)
   const jobTitles = dataset.match(null, schema.jobTitle)
 
   console.log(turtle`

@@ -14,8 +14,8 @@ const graph = clownface({
 })
 
 graph
-  .addOut(schema.givenName, graph.namedNode('Stuart'))
-  .addOut(schema.familyName, graph.namedNode('Bloom'))
+  .addOut(schema.givenName, graph.literal('Stuart'))
+  .addOut(schema.familyName, graph.literal('Bloom'))
   .addOut(schema.jobTitle, graph.literal('comic book store owner', 'en'))
   .addOut(schema.knows, tbbt.penny, penny => {
     penny.addOut(schema.address, address => {

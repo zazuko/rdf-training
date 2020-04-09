@@ -14,6 +14,14 @@ async function main () {
     term: tbbt.penny
   })
 
+  // hint: in() is like matching predicate/object
+  // graph.in()
+  // match(null, schema.knows, penny)
+
+  // hint: out() is like matching subject/predicate
+  // graph.out()
+  // match(penny, schema.knows)
+
   // Find the names of people who know Penny
   return graph
     .in(schema.knows)
