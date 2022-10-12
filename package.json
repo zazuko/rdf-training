@@ -13,7 +13,7 @@
     "@rdfjs/formats-common": "^2.1.0",
     "@rdfjs/namespace": "^1.1.0",
     "@rdfjs/parser-n3": "^1.1.4",
-    "@rdfjs/serializer-jsonld-ext": "^2.0.0",
+    "@rdfjs/serializer-jsonld-ext": "^3.0.0",
     "@tpluscode/rdf-ns-builders": "^0.1.0",
     "@tpluscode/rdf-string": "^0.2.10",
     "clownface": "^0.12.1",
